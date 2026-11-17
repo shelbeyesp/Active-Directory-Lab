@@ -57,6 +57,9 @@ Created domain user accounts (`Jane Doe`, `Mike James`) and role-based security 
 ![AD Users and Security Groups](docs/screenshots/05-users-and-groups.png)
 *Figure 5: Active Directory Users and Computers showing provisioned user accounts and `IT Admins` / `Staff` security groups.*
 
+### 6. Client Domain Join & User Authentication Verification
+Joined the Windows 11 client workstation to `lab.local` and verified domain authentication by logging in with the newly provisioned user accounts (`Jane Doe` and `Mike James`) and confirming domain identity via `whoami`
+
 ---
 
 ## Troubleshooting & Lessons Learned
